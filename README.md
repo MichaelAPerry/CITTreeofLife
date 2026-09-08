@@ -19,6 +19,16 @@ npm run build
 
 The output goes to `dist/`.
 
+### Fully offline, single-file build
+
+For a version that runs with **zero server and zero internet connection** — just double-click and open in a browser (`file://`) — build the single-file bundle instead:
+
+```bash
+npm run build:offline
+```
+
+This produces one self-contained `dist-offline/index.html` (all JS/CSS inlined, no external CDN calls, no separate assets). Copy that one file anywhere — a USB drive, a lab machine with no network, a classroom share — and open it directly. Everything works offline except pasting/embedding a YouTube interview video, which still needs internet at the moment a student watches one.
+
 ## How it works
 
 - **`src/data/careers.json`** — the entire career tree. Every domain, specialization, established career, and emerging career is one entry in this file. **This is the file teachers edit** to correct data, add new roles, or plug in real YouTube video IDs — no code changes required.
