@@ -1,0 +1,2142 @@
+[
+  {
+    "id": "computing-foundations",
+    "name": "Computing Foundations",
+    "type": "root",
+    "parentId": null,
+    "tagline": "The common ancestor of every computing career",
+    "description": "All modern computing and IT careers trace back to the same foundational ideas: logic, mathematics, and the design of machines that process information. From this trunk, the field has branched into the specialized disciplines you see today — and continues branching into brand-new careers as technology evolves.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "history of computer science explained",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+
+  {
+    "id": "software-development",
+    "name": "Software Development",
+    "type": "domain",
+    "parentId": "computing-foundations",
+    "tagline": "Building the applications people use every day",
+    "description": "The software development domain covers everyone who designs, writes, and maintains the code behind websites, apps, and games. It branched early from computing's mathematical roots as programming languages made it possible to instruct computers to do useful, repeatable work.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "what does a software developer do",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "web-development",
+    "name": "Web Development",
+    "type": "specialization",
+    "parentId": "software-development",
+    "tagline": "Building for the browser",
+    "description": "Web development branched off as the internet grew, splitting into specialists who build what users see (frontend), what powers it behind the scenes (backend), and generalists who do both (full-stack).",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a web developer",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "frontend-developer",
+    "name": "Frontend Developer",
+    "type": "career",
+    "parentId": "web-development",
+    "tagline": "Builds what users see and click",
+    "description": "Frontend developers build the visual, interactive parts of websites and web apps — the layouts, buttons, and animations a visitor directly sees and touches in their browser.",
+    "tasks": [
+      "Turn design mockups into working web pages using HTML, CSS, and JavaScript",
+      "Build reusable interface components with frameworks like React or Vue",
+      "Test pages across different browsers, screen sizes, and devices",
+      "Optimize pages so they load quickly and work for users with disabilities"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science or a related field (some enter through coding bootcamps or self-taught portfolios)",
+      "degrees": ["B.S. Computer Science", "B.S. Web/Software Development", "Coding bootcamp certificate"],
+      "certifications": ["Meta Front-End Developer Certificate", "freeCodeCamp Responsive Web Design"]
+    },
+    "salary": {
+      "median": 92600,
+      "range": "$63,000 – $145,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Paid time off & holidays", "Remote/hybrid work options"]
+    },
+    "availability": {
+      "nationalGrowthPct": 16,
+      "nationalGrowthLabel": "Much faster than average (grouped under Software Developers)",
+      "annualOpenings": 130000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a frontend developer",
+    "videos": [],
+    "skills": [
+      { "name": "HTML & CSS", "category": "technical" },
+      { "name": "JavaScript / TypeScript", "category": "technical" },
+      { "name": "A frontend framework (React, Vue, or Angular)", "category": "technical" },
+      { "name": "Responsive & accessible design", "category": "hard" },
+      { "name": "Debugging & browser dev tools", "category": "hard" },
+      { "name": "Attention to detail", "category": "soft" },
+      { "name": "Collaboration with designers", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1254.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "backend-developer",
+    "name": "Backend Developer",
+    "type": "career",
+    "parentId": "web-development",
+    "tagline": "Builds the server, database, and logic behind the scenes",
+    "description": "Backend developers write the server-side code, databases, and APIs that power an application — the plumbing that frontend interfaces rely on to store data and get real work done.",
+    "tasks": [
+      "Design and build servers, databases, and APIs",
+      "Write code that handles business logic, user accounts, and transactions",
+      "Optimize database queries and system performance",
+      "Secure applications against data breaches and misuse"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science or software engineering",
+      "degrees": ["B.S. Computer Science", "B.S. Software Engineering"],
+      "certifications": ["AWS Certified Developer", "Oracle Certified Professional Java Developer"]
+    },
+    "salary": {
+      "median": 130160,
+      "range": "$75,000 – $175,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs (common at tech firms)", "Remote/hybrid work options"]
+    },
+    "availability": {
+      "nationalGrowthPct": 17,
+      "nationalGrowthLabel": "Much faster than average (Software Developers, Quality Assurance Analysts, and Testers)",
+      "annualOpenings": 130000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a backend developer",
+    "videos": [],
+    "skills": [
+      { "name": "A backend language (Python, Java, Node.js, C#)", "category": "technical" },
+      { "name": "Databases & SQL", "category": "technical" },
+      { "name": "API design (REST/GraphQL)", "category": "technical" },
+      { "name": "System design & architecture", "category": "hard" },
+      { "name": "Security best practices", "category": "hard" },
+      { "name": "Problem solving", "category": "soft" },
+      { "name": "Written communication (docs & code reviews)", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1252.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "full-stack-developer",
+    "name": "Full-Stack Developer",
+    "type": "career",
+    "parentId": "web-development",
+    "tagline": "Comfortable working on both ends of the stack",
+    "description": "Full-stack developers work across both the frontend and backend of an application, making them versatile generalists especially valued at smaller companies and startups.",
+    "tasks": [
+      "Build complete features from database to user interface",
+      "Move between frontend and backend code as a project needs",
+      "Collaborate with designers, product managers, and other engineers",
+      "Deploy and monitor applications in production"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science, or a bootcamp/self-taught path with a strong portfolio",
+      "degrees": ["B.S. Computer Science", "B.S. Information Technology", "Coding bootcamp certificate"],
+      "certifications": ["Meta Full-Stack Engineer Certificate", "AWS Certified Solutions Architect – Associate"]
+    },
+    "salary": {
+      "median": 120730,
+      "range": "$70,000 – $165,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Flexible/remote schedules", "Professional development budget"]
+    },
+    "availability": {
+      "nationalGrowthPct": 17,
+      "nationalGrowthLabel": "Much faster than average (grouped under Software Developers)",
+      "annualOpenings": 130000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a full stack developer",
+    "videos": [],
+    "skills": [
+      { "name": "Frontend & backend languages", "category": "technical" },
+      { "name": "Databases", "category": "technical" },
+      { "name": "Version control (Git)", "category": "technical" },
+      { "name": "Cloud deployment basics", "category": "hard" },
+      { "name": "Time management across priorities", "category": "soft" },
+      { "name": "Adaptability", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1252.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "ai-application-engineer",
+    "name": "AI Application Engineer",
+    "type": "emerging",
+    "parentId": "full-stack-developer",
+    "tagline": "An emerging branch: wires large language models into real products",
+    "description": "An emerging role that grew directly out of full-stack development as AI models became widely available. AI application engineers integrate large language models and AI APIs into products — building the chatbots, copilots, and AI features that now appear across the software industry.",
+    "tasks": [
+      "Integrate AI/LLM APIs (like Claude or GPT models) into applications",
+      "Design and test prompts and retrieval pipelines for reliability",
+      "Build guardrails, evaluation tests, and monitoring for AI features",
+      "Balance cost, latency, and accuracy of AI-powered features"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science; often a lateral move from software engineering with self-directed AI training",
+      "degrees": ["B.S. Computer Science", "B.S. Data Science"],
+      "certifications": ["Vendor AI/ML certificates (AWS, Google Cloud, Microsoft Azure AI)", "DeepLearning.AI short courses"]
+    },
+    "salary": {
+      "median": 145000,
+      "range": "$95,000 – $210,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs", "AI tool & compute stipends"]
+    },
+    "availability": {
+      "nationalGrowthPct": null,
+      "nationalGrowthLabel": "Not yet tracked separately — folded into Software Developers, one of BLS's fastest-growing groups",
+      "annualOpenings": null,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "what does an AI engineer do LLM applications",
+    "videos": [],
+    "skills": [
+      { "name": "Software engineering fundamentals", "category": "technical" },
+      { "name": "Prompt design & evaluation", "category": "technical" },
+      { "name": "APIs & cloud services", "category": "technical" },
+      { "name": "Understanding of model limits & bias", "category": "hard" },
+      { "name": "Curiosity & fast learning", "category": "soft" },
+      { "name": "Ethical judgment", "category": "soft" }
+    ],
+    "sources": {
+      "bls": null,
+      "onet": "https://www.onetonline.org/find/quick?s=AI+engineer",
+      "fallbackNote": "Too new for its own BLS/O*NET occupation code as of 2026. It is closest to, and currently tracked within, 'Software Developers' — check that profile for the nearest official wage/outlook data."
+    }
+  },
+
+  {
+    "id": "mobile-app-development",
+    "name": "Mobile App Development",
+    "type": "specialization",
+    "parentId": "software-development",
+    "tagline": "Building for phones and tablets",
+    "description": "As smartphones became universal, a specialization branched off to build apps specifically for mobile operating systems, splitting further into iOS and Android specialists.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a mobile app developer",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "ios-developer",
+    "name": "iOS Developer",
+    "type": "career",
+    "parentId": "mobile-app-development",
+    "tagline": "Builds apps for iPhone and iPad",
+    "description": "iOS developers design and build apps for Apple's iPhone and iPad using Swift, following Apple's design and App Store guidelines.",
+    "tasks": [
+      "Write app code in Swift or Objective-C using Apple's Xcode tools",
+      "Design interfaces following Apple's Human Interface Guidelines",
+      "Test apps on multiple device sizes and iOS versions",
+      "Submit and maintain apps through the Apple App Store"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science, or a strong self-taught/bootcamp portfolio",
+      "degrees": ["B.S. Computer Science", "B.S. Software Engineering"],
+      "certifications": ["Apple Developer Program membership", "iOS App Development with Swift (Coursera/Apple)"]
+    },
+    "salary": {
+      "median": 115000,
+      "range": "$70,000 – $165,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Device/hardware stipends", "Remote/hybrid options"]
+    },
+    "availability": {
+      "nationalGrowthPct": 17,
+      "nationalGrowthLabel": "Much faster than average (grouped under Software Developers)",
+      "annualOpenings": 130000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of an iOS developer",
+    "videos": [],
+    "skills": [
+      { "name": "Swift / SwiftUI", "category": "technical" },
+      { "name": "Xcode & Apple developer tools", "category": "technical" },
+      { "name": "Mobile UI/UX principles", "category": "hard" },
+      { "name": "App Store submission & review process", "category": "hard" },
+      { "name": "Patience & precision", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1252.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "android-developer",
+    "name": "Android Developer",
+    "type": "career",
+    "parentId": "mobile-app-development",
+    "tagline": "Builds apps for Android phones and tablets",
+    "description": "Android developers build apps for the Android operating system using Kotlin or Java, publishing to the Google Play Store for the world's most widely used mobile platform.",
+    "tasks": [
+      "Write app code in Kotlin or Java using Android Studio",
+      "Design interfaces following Google's Material Design guidelines",
+      "Test across the wide variety of Android device makers and screen sizes",
+      "Publish and maintain apps on the Google Play Store"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science, or a strong self-taught/bootcamp portfolio",
+      "degrees": ["B.S. Computer Science", "B.S. Software Engineering"],
+      "certifications": ["Associate Android Developer Certification (Google)", "Kotlin for Java Developers"]
+    },
+    "salary": {
+      "median": 112000,
+      "range": "$68,000 – $160,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Device/hardware stipends", "Remote/hybrid options"]
+    },
+    "availability": {
+      "nationalGrowthPct": 17,
+      "nationalGrowthLabel": "Much faster than average (grouped under Software Developers)",
+      "annualOpenings": 130000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of an Android developer",
+    "videos": [],
+    "skills": [
+      { "name": "Kotlin / Java", "category": "technical" },
+      { "name": "Android Studio & SDK", "category": "technical" },
+      { "name": "Mobile UI/UX principles", "category": "hard" },
+      { "name": "Testing across device fragmentation", "category": "hard" },
+      { "name": "Persistence & troubleshooting", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1252.00",
+      "fallbackNote": null
+    }
+  },
+
+  {
+    "id": "game-development",
+    "name": "Game Development",
+    "type": "specialization",
+    "parentId": "software-development",
+    "tagline": "Building interactive entertainment",
+    "description": "Game development branched off to serve the entertainment industry, splitting into creative design roles and the specialized programming needed to bring game worlds to life.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a video game developer",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "game-designer",
+    "name": "Game Designer",
+    "type": "career",
+    "parentId": "game-development",
+    "tagline": "Designs how a game plays and feels",
+    "description": "Game designers plan the rules, levels, characters, and systems that make a game fun — focusing on player experience rather than the underlying code.",
+    "tasks": [
+      "Design game mechanics, levels, and progression systems",
+      "Write design documents and prototype ideas quickly",
+      "Playtest and iterate based on player feedback",
+      "Collaborate closely with artists, programmers, and writers"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in game design, computer science, or a related creative field",
+      "degrees": ["B.A./B.S. Game Design", "B.S. Computer Science"],
+      "certifications": ["Unity Certified Associate: Game Developer", "Unreal Engine certifications"]
+    },
+    "salary": {
+      "median": 89000,
+      "range": "$55,000 – $130,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Game/console perks", "Crunch-time overtime pay (varies by studio)"]
+    },
+    "availability": {
+      "nationalGrowthPct": 8,
+      "nationalGrowthLabel": "Faster than average (grouped under Multimedia Artists and Animators)",
+      "annualOpenings": 6300,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a game designer",
+    "videos": [],
+    "skills": [
+      { "name": "Game engines (Unity or Unreal)", "category": "technical" },
+      { "name": "Systems & level design", "category": "hard" },
+      { "name": "Rapid prototyping", "category": "hard" },
+      { "name": "Storytelling", "category": "soft" },
+      { "name": "Receiving & applying feedback", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/arts-and-design/multimedia-artists-and-animators.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=game+designer",
+      "fallbackNote": "BLS groups game designers under 'Multimedia Artists and Animators.' O*NET lists 'Video Game Designers' as a related sub-occupation."
+    }
+  },
+  {
+    "id": "game-programmer",
+    "name": "Game Programmer",
+    "type": "career",
+    "parentId": "game-development",
+    "tagline": "Writes the code that runs a game",
+    "description": "Game programmers write the code for graphics, physics, gameplay systems, and performance optimization that bring a game designer's vision to life on screen.",
+    "tasks": [
+      "Implement gameplay systems, physics, and AI behavior in code",
+      "Optimize performance for consoles, PC, or mobile hardware",
+      "Build and maintain tools used by designers and artists",
+      "Debug and fix issues found during playtesting"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science or game programming",
+      "degrees": ["B.S. Computer Science", "B.S. Game Programming"],
+      "certifications": ["Unity Certified Programmer", "Unreal Engine Developer certifications"]
+    },
+    "salary": {
+      "median": 103000,
+      "range": "$65,000 – $150,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Game/console perks", "Studio profit-sharing bonuses (varies)"]
+    },
+    "availability": {
+      "nationalGrowthPct": 17,
+      "nationalGrowthLabel": "Much faster than average (grouped under Software Developers)",
+      "annualOpenings": 130000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a game programmer",
+    "videos": [],
+    "skills": [
+      { "name": "C++ or C#", "category": "technical" },
+      { "name": "Game engines (Unity or Unreal)", "category": "technical" },
+      { "name": "Math for graphics & physics", "category": "hard" },
+      { "name": "Performance optimization", "category": "hard" },
+      { "name": "Teamwork under deadlines", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1252.00",
+      "fallbackNote": null
+    }
+  },
+
+  {
+    "id": "data-and-ai",
+    "name": "Data & Artificial Intelligence",
+    "type": "domain",
+    "parentId": "computing-foundations",
+    "tagline": "Turning raw data into insight and intelligence",
+    "description": "As computers began storing massive amounts of information, a new domain branched off around organizing, analyzing, and eventually teaching machines to learn from that data.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "what is data science and AI careers explained",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "data-analytics",
+    "name": "Data Analytics",
+    "type": "specialization",
+    "parentId": "data-and-ai",
+    "tagline": "Finding patterns in existing data",
+    "description": "Data analytics branched off to focus on interpreting data that already exists — turning spreadsheets and databases into reports and dashboards that guide business decisions.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a data analyst",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "data-analyst",
+    "name": "Data Analyst",
+    "type": "career",
+    "parentId": "data-analytics",
+    "tagline": "Turns raw data into charts, reports, and answers",
+    "description": "Data analysts collect, clean, and interpret data to answer specific business questions, presenting their findings in reports and dashboards that guide decisions.",
+    "tasks": [
+      "Collect and clean data from multiple sources",
+      "Write queries (SQL) to pull and summarize data",
+      "Build dashboards and visualizations (Tableau, Power BI, Excel)",
+      "Present findings and recommendations to non-technical stakeholders"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in a quantitative field such as statistics, math, economics, or computer science",
+      "degrees": ["B.S./B.A. Statistics or Data Analytics", "B.S. Economics", "B.S. Computer Science"],
+      "certifications": ["Google Data Analytics Professional Certificate", "Microsoft Certified: Power BI Data Analyst Associate"]
+    },
+    "salary": {
+      "median": 74000,
+      "range": "$48,000 – $105,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Paid time off & holidays", "Remote/hybrid options"]
+    },
+    "availability": {
+      "nationalGrowthPct": 23,
+      "nationalGrowthLabel": "Much faster than average (grouped under Operations Research Analysts)",
+      "annualOpenings": 11000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a data analyst",
+    "videos": [],
+    "skills": [
+      { "name": "SQL", "category": "technical" },
+      { "name": "Excel / spreadsheets", "category": "technical" },
+      { "name": "Data visualization tools", "category": "technical" },
+      { "name": "Statistics fundamentals", "category": "hard" },
+      { "name": "Storytelling with data", "category": "soft" },
+      { "name": "Attention to detail", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/math/operations-research-analysts.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=data+analyst",
+      "fallbackNote": "BLS does not track 'Data Analyst' as its own title; the closest official match is 'Operations Research Analysts.'"
+    }
+  },
+  {
+    "id": "business-intelligence-analyst",
+    "name": "Business Intelligence Analyst",
+    "type": "career",
+    "parentId": "data-analytics",
+    "tagline": "Builds the reporting systems leaders rely on",
+    "description": "BI analysts design and maintain the data pipelines and dashboards that give an entire organization ongoing visibility into performance, going a step beyond one-off analysis.",
+    "tasks": [
+      "Design and maintain BI dashboards and automated reports",
+      "Model data warehouses so information flows cleanly from source systems",
+      "Partner with departments to define key metrics (KPIs)",
+      "Train staff on self-service reporting tools"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in business analytics, information systems, or a related field",
+      "degrees": ["B.S. Business Analytics", "B.S. Management Information Systems"],
+      "certifications": ["Microsoft Certified: Power BI Data Analyst Associate", "Certified Business Intelligence Professional (CBIP)"]
+    },
+    "salary": {
+      "median": 87000,
+      "range": "$58,000 – $125,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Bonus/profit-sharing", "Remote/hybrid options"]
+    },
+    "availability": {
+      "nationalGrowthPct": 23,
+      "nationalGrowthLabel": "Much faster than average (grouped under Operations Research Analysts)",
+      "annualOpenings": 11000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a business intelligence analyst",
+    "videos": [],
+    "skills": [
+      { "name": "SQL & data warehousing", "category": "technical" },
+      { "name": "BI tools (Power BI, Tableau, Looker)", "category": "technical" },
+      { "name": "Business/domain knowledge", "category": "hard" },
+      { "name": "Requirements gathering", "category": "soft" },
+      { "name": "Cross-team communication", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/math/operations-research-analysts.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=business+intelligence+analyst",
+      "fallbackNote": "BLS does not track this exact title; closest official match is 'Operations Research Analysts' / 'Management Analysts.'"
+    }
+  },
+
+  {
+    "id": "data-science-ml",
+    "name": "Data Science & Machine Learning",
+    "type": "specialization",
+    "parentId": "data-and-ai",
+    "tagline": "Building models that learn from data",
+    "description": "This specialization branched off to focus not just on describing data, but on building statistical and machine-learning models that predict, classify, and eventually generate new content.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a data scientist",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "data-scientist",
+    "name": "Data Scientist",
+    "type": "career",
+    "parentId": "data-science-ml",
+    "tagline": "Builds statistical models to predict and explain",
+    "description": "Data scientists use statistics, programming, and domain expertise to build models that uncover patterns and make predictions from large, often messy datasets.",
+    "tasks": [
+      "Clean and explore large datasets",
+      "Build and test statistical and machine learning models",
+      "Design experiments (A/B tests) to measure impact",
+      "Communicate technical findings to business stakeholders"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree required; many roles prefer a Master's in data science, statistics, or computer science",
+      "degrees": ["B.S./M.S. Data Science", "B.S./M.S. Statistics", "B.S./M.S. Computer Science"],
+      "certifications": ["IBM Data Science Professional Certificate", "Google Advanced Data Analytics Certificate"]
+    },
+    "salary": {
+      "median": 112590,
+      "range": "$75,000 – $165,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs (common at tech firms)", "Conference/learning budget"]
+    },
+    "availability": {
+      "nationalGrowthPct": 36,
+      "nationalGrowthLabel": "Much faster than average — one of BLS's fastest-growing occupations",
+      "annualOpenings": 20800,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a data scientist",
+    "videos": [],
+    "skills": [
+      { "name": "Python or R", "category": "technical" },
+      { "name": "Statistics & probability", "category": "technical" },
+      { "name": "Machine learning libraries", "category": "technical" },
+      { "name": "SQL & data wrangling", "category": "hard" },
+      { "name": "Critical thinking", "category": "soft" },
+      { "name": "Communicating results clearly", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/math/data-scientists.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-2051.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "machine-learning-engineer",
+    "name": "Machine Learning Engineer",
+    "type": "career",
+    "parentId": "data-science-ml",
+    "tagline": "Builds and ships production AI systems",
+    "description": "ML engineers take models built by data scientists (or build their own) and turn them into reliable, scalable software systems running in production — a blend of software engineering and applied ML.",
+    "tasks": [
+      "Design, train, and evaluate machine learning models",
+      "Build data pipelines to feed models at scale",
+      "Deploy models into production and monitor their performance",
+      "Optimize models for speed, cost, and accuracy"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree required; many roles prefer a Master's in computer science, ML, or a related field",
+      "degrees": ["B.S./M.S. Computer Science", "B.S./M.S. Machine Learning / AI"],
+      "certifications": ["TensorFlow Developer Certificate", "AWS Certified Machine Learning – Specialty"]
+    },
+    "salary": {
+      "median": 140000,
+      "range": "$95,000 – $210,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs", "GPU/compute resources & research time"]
+    },
+    "availability": {
+      "nationalGrowthPct": 26,
+      "nationalGrowthLabel": "Much faster than average (grouped under Computer and Information Research Scientists)",
+      "annualOpenings": 3400,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a machine learning engineer",
+    "videos": [],
+    "skills": [
+      { "name": "Python & ML frameworks (PyTorch/TensorFlow)", "category": "technical" },
+      { "name": "Data structures & algorithms", "category": "technical" },
+      { "name": "Cloud/ML infrastructure", "category": "technical" },
+      { "name": "Model evaluation & experimentation", "category": "hard" },
+      { "name": "Persistence through long experiments", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=machine+learning+engineer",
+      "fallbackNote": "BLS groups this role under 'Computer and Information Research Scientists.'"
+    }
+  },
+  {
+    "id": "prompt-engineer",
+    "name": "Prompt Engineer / AI Interaction Designer",
+    "type": "emerging",
+    "parentId": "machine-learning-engineer",
+    "tagline": "An emerging branch: crafts how humans instruct AI",
+    "description": "A brand-new career branch that appeared alongside large language models. Prompt engineers design, test, and refine the instructions and workflows that get reliable, high-quality output from AI systems — part linguist, part engineer, part QA tester.",
+    "tasks": [
+      "Design and test prompts/instructions for AI models",
+      "Build evaluation sets to measure output quality and catch failures",
+      "Document effective prompting patterns for a team or product",
+      "Work with engineers to wire good prompts into real products"
+    ],
+    "education": {
+      "typicalEntry": "No standard degree yet; often a lateral move from writing, linguistics, software, or data roles plus hands-on AI experience",
+      "degrees": ["B.A. Linguistics, English, or Communications", "B.S. Computer Science or Data Science"],
+      "certifications": ["Vendor prompt-engineering courses (OpenAI, Google, DeepLearning.AI)"]
+    },
+    "salary": {
+      "median": 105000,
+      "range": "$65,000 – $160,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Remote/hybrid work options", "AI tool access & training stipends"]
+    },
+    "availability": {
+      "nationalGrowthPct": null,
+      "nationalGrowthLabel": "Too new for a BLS growth projection; demand is rising quickly as more companies adopt AI",
+      "annualOpenings": null,
+      "projectionWindow": "n/a",
+      "localNote": ""
+    },
+    "videoSearchQuery": "what does a prompt engineer actually do",
+    "videos": [],
+    "skills": [
+      { "name": "Clear, precise writing", "category": "technical" },
+      { "name": "Understanding how LLMs work", "category": "technical" },
+      { "name": "Basic scripting (Python)", "category": "hard" },
+      { "name": "Testing & evaluation mindset", "category": "hard" },
+      { "name": "Creativity", "category": "soft" },
+      { "name": "Ethical reasoning", "category": "soft" }
+    ],
+    "sources": {
+      "bls": null,
+      "onet": "https://www.onetonline.org/find/quick?s=prompt+engineer",
+      "fallbackNote": "Not yet an official BLS/O*NET occupation as of 2026. Treat this as an emerging title — ask your teacher for the latest guidance and check company job postings for current expectations."
+    }
+  },
+  {
+    "id": "ai-ethics-specialist",
+    "name": "AI Ethics Specialist",
+    "type": "emerging",
+    "parentId": "data-science-ml",
+    "tagline": "An emerging branch: keeps AI systems fair and accountable",
+    "description": "A newly forming career branch focused on identifying bias, fairness, safety, and policy risks in AI systems before and after they launch — combining data science literacy with ethics, law, and social science.",
+    "tasks": [
+      "Audit datasets and models for bias or unfair outcomes",
+      "Write and enforce responsible-AI policies and guidelines",
+      "Review new AI products before launch for ethical/legal risk",
+      "Educate teams on responsible AI development practices"
+    ],
+    "education": {
+      "typicalEntry": "No standard degree yet; often held by people with backgrounds in data science, philosophy, law, or public policy plus AI literacy",
+      "degrees": ["B.A./M.A. Philosophy, Ethics, or Public Policy", "B.S. Data Science or Computer Science"],
+      "certifications": ["Responsible AI certificates (Google, Microsoft)", "AI governance / IAPP AI Governance Professional"]
+    },
+    "salary": {
+      "median": 118000,
+      "range": "$75,000 – $170,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Remote/hybrid work options", "Conference & research budget"]
+    },
+    "availability": {
+      "nationalGrowthPct": null,
+      "nationalGrowthLabel": "Too new for a BLS growth projection; hiring demand is emerging as regulation and public scrutiny of AI increases",
+      "annualOpenings": null,
+      "projectionWindow": "n/a",
+      "localNote": ""
+    },
+    "videoSearchQuery": "what does an AI ethics specialist do",
+    "videos": [],
+    "skills": [
+      { "name": "AI/ML literacy", "category": "technical" },
+      { "name": "Bias detection & auditing methods", "category": "hard" },
+      { "name": "Policy writing", "category": "hard" },
+      { "name": "Ethical reasoning", "category": "soft" },
+      { "name": "Persuasive communication", "category": "soft" }
+    ],
+    "sources": {
+      "bls": null,
+      "onet": "https://www.onetonline.org/find/quick?s=AI+ethics",
+      "fallbackNote": "Not yet an official BLS/O*NET occupation as of 2026. Related established profiles include 'Computer and Information Research Scientists' and 'Compliance Officers' — check both for adjacent data."
+    }
+  },
+
+  {
+    "id": "database-administration",
+    "name": "Database Administration",
+    "type": "specialization",
+    "parentId": "data-and-ai",
+    "tagline": "Keeping an organization's data safe and available",
+    "description": "This specialization branched off early to focus on the systems that store data itself — keeping databases fast, organized, backed up, and secure.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a database administrator",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "database-administrator",
+    "name": "Database Administrator",
+    "type": "career",
+    "parentId": "database-administration",
+    "tagline": "Manages and protects an organization's databases",
+    "description": "Database administrators (DBAs) design, implement, and maintain the databases that store an organization's critical information, ensuring it stays secure, backed up, and running smoothly.",
+    "tasks": [
+      "Design database structures (schemas) for new applications",
+      "Monitor database performance and fix slow queries",
+      "Set up backups and disaster recovery plans",
+      "Manage user access and database security"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science, information systems, or a related field",
+      "degrees": ["B.S. Computer Science", "B.S. Information Systems"],
+      "certifications": ["Oracle Database Certified Professional", "Microsoft Certified: Azure Database Administrator Associate"]
+    },
+    "salary": {
+      "median": 101000,
+      "range": "$60,000 – $150,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Paid time off & holidays", "On-call pay/compensation (varies)"]
+    },
+    "availability": {
+      "nationalGrowthPct": 8,
+      "nationalGrowthLabel": "Faster than average",
+      "annualOpenings": 9100,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a database administrator",
+    "videos": [],
+    "skills": [
+      { "name": "SQL & database platforms", "category": "technical" },
+      { "name": "Backup & recovery planning", "category": "technical" },
+      { "name": "Performance tuning", "category": "hard" },
+      { "name": "Security & access control", "category": "hard" },
+      { "name": "Reliability under pressure", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1242.00",
+      "fallbackNote": null
+    }
+  },
+
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "type": "domain",
+    "parentId": "computing-foundations",
+    "tagline": "Defending systems, networks, and data from attack",
+    "description": "As computers became targets for theft and sabotage, a domain branched off dedicated entirely to defense — detecting attacks, responding to breaches, and building systems that resist them in the first place.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "what does a cybersecurity career look like",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "security-operations",
+    "name": "Security Operations",
+    "type": "specialization",
+    "parentId": "cybersecurity",
+    "tagline": "Watching for and responding to threats in real time",
+    "description": "This branch focuses on the frontline of cybersecurity: monitoring systems around the clock and reacting quickly when something goes wrong.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a SOC analyst",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "soc-analyst",
+    "name": "Security Operations Center (SOC) Analyst",
+    "type": "career",
+    "parentId": "security-operations",
+    "tagline": "Monitors networks for signs of attack, 24/7",
+    "description": "SOC analysts watch security monitoring tools around the clock, investigating alerts to tell real attacks apart from false alarms and escalating serious threats.",
+    "tasks": [
+      "Monitor security dashboards (SIEM tools) for suspicious activity",
+      "Investigate and triage security alerts",
+      "Document incidents and escalate serious threats",
+      "Help maintain detection rules and playbooks"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in cybersecurity, computer science, or IT; entry-level roles sometimes accept an associate degree plus certifications",
+      "degrees": ["B.S. Cybersecurity", "B.S. Computer Science", "A.S. Information Technology"],
+      "certifications": ["CompTIA Security+", "Certified SOC Analyst (CSA)"]
+    },
+    "salary": {
+      "median": 84000,
+      "range": "$55,000 – $120,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Shift differential pay (for night/weekend shifts)", "Ongoing training/certification support"]
+    },
+    "availability": {
+      "nationalGrowthPct": 33,
+      "nationalGrowthLabel": "Much faster than average (grouped under Information Security Analysts)",
+      "annualOpenings": 16800,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a SOC analyst",
+    "videos": [],
+    "skills": [
+      { "name": "SIEM tools (Splunk, QRadar, etc.)", "category": "technical" },
+      { "name": "Networking fundamentals", "category": "technical" },
+      { "name": "Threat detection & triage", "category": "hard" },
+      { "name": "Incident documentation", "category": "hard" },
+      { "name": "Calm under pressure", "category": "soft" },
+      { "name": "Attention to detail", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1212.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "incident-responder",
+    "name": "Incident Responder",
+    "type": "career",
+    "parentId": "security-operations",
+    "tagline": "The first responder when a breach happens",
+    "description": "Incident responders investigate and contain active security breaches, working to stop damage, remove attackers, and restore systems safely.",
+    "tasks": [
+      "Investigate confirmed security incidents and breaches",
+      "Contain threats and remove attacker access",
+      "Perform digital forensics to determine what happened",
+      "Write post-incident reports and recommend fixes"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in cybersecurity or computer science, usually after experience as a SOC analyst",
+      "degrees": ["B.S. Cybersecurity", "B.S. Computer Science"],
+      "certifications": ["GIAC Certified Incident Handler (GCIH)", "EC-Council Certified Incident Handler"]
+    },
+    "salary": {
+      "median": 105000,
+      "range": "$70,000 – $150,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "On-call/emergency response pay", "Ongoing training/certification support"]
+    },
+    "availability": {
+      "nationalGrowthPct": 33,
+      "nationalGrowthLabel": "Much faster than average (grouped under Information Security Analysts)",
+      "annualOpenings": 16800,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of an incident responder cybersecurity",
+    "videos": [],
+    "skills": [
+      { "name": "Digital forensics tools", "category": "technical" },
+      { "name": "Malware analysis basics", "category": "technical" },
+      { "name": "Incident response frameworks", "category": "hard" },
+      { "name": "Clear written reporting", "category": "hard" },
+      { "name": "Composure during high-stress events", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1212.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "offensive-security",
+    "name": "Offensive Security",
+    "type": "specialization",
+    "parentId": "cybersecurity",
+    "tagline": "Attacking systems on purpose, to make them stronger",
+    "description": "This branch flips the perspective: offensive security professionals think and act like attackers, legally breaking into systems to find weaknesses before criminals do.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a penetration tester",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "penetration-tester",
+    "name": "Penetration Tester (Ethical Hacker)",
+    "type": "career",
+    "parentId": "offensive-security",
+    "tagline": "Legally hacks systems to find weaknesses first",
+    "description": "Penetration testers are hired to simulate real cyberattacks against a company's own systems, uncovering vulnerabilities so they can be fixed before real criminals find them.",
+    "tasks": [
+      "Plan and run authorized simulated attacks on networks and apps",
+      "Use hacking tools to find and exploit vulnerabilities",
+      "Write detailed reports explaining findings and fixes",
+      "Stay current on new attack techniques and vulnerabilities"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in cybersecurity or computer science, though some enter through certifications and demonstrated hands-on skill",
+      "degrees": ["B.S. Cybersecurity", "B.S. Computer Science"],
+      "certifications": ["Offensive Security Certified Professional (OSCP)", "Certified Ethical Hacker (CEH)"]
+    },
+    "salary": {
+      "median": 111000,
+      "range": "$70,000 – $165,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Conference & certification budget", "Bug bounty/bonus opportunities"]
+    },
+    "availability": {
+      "nationalGrowthPct": 33,
+      "nationalGrowthLabel": "Much faster than average (grouped under Information Security Analysts)",
+      "annualOpenings": 16800,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a penetration tester ethical hacker",
+    "videos": [],
+    "skills": [
+      { "name": "Networking & operating systems internals", "category": "technical" },
+      { "name": "Penetration testing tools (Kali, Metasploit, Burp Suite)", "category": "technical" },
+      { "name": "Scripting (Python or Bash)", "category": "hard" },
+      { "name": "Report writing", "category": "hard" },
+      { "name": "Creative, out-of-the-box thinking", "category": "soft" },
+      { "name": "Strong ethics", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1212.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "security-governance",
+    "name": "Security Governance, Risk & Compliance",
+    "type": "specialization",
+    "parentId": "cybersecurity",
+    "tagline": "Managing security policy, risk, and regulations",
+    "description": "This branch focuses on the big-picture and legal side of security: setting policy, managing risk, and ensuring an organization follows privacy and security regulations.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "what is GRC governance risk and compliance cybersecurity",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "information-security-manager",
+    "name": "Information Security Manager",
+    "type": "career",
+    "parentId": "security-governance",
+    "tagline": "Leads an organization's overall security strategy",
+    "description": "Information security managers oversee a company's entire security program — setting policy, managing security teams and budgets, and reporting risk to leadership.",
+    "tasks": [
+      "Develop and enforce security policies across the organization",
+      "Manage security staff, budgets, and vendor tools",
+      "Oversee risk assessments and compliance audits",
+      "Report security posture and incidents to executive leadership"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree required; many roles prefer a Master's plus 5+ years of security experience",
+      "degrees": ["B.S. Cybersecurity or Computer Science", "MBA or M.S. Information Security (for senior roles)"],
+      "certifications": ["Certified Information Systems Security Professional (CISSP)", "Certified Information Security Manager (CISM)"]
+    },
+    "salary": {
+      "median": 169510,
+      "range": "$110,000 – $225,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Executive bonus structure", "Leadership development programs"]
+    },
+    "availability": {
+      "nationalGrowthPct": 15,
+      "nationalGrowthLabel": "Much faster than average (grouped under Computer and Information Systems Managers)",
+      "annualOpenings": 52700,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of an information security manager CISO",
+    "videos": [],
+    "skills": [
+      { "name": "Security frameworks (NIST, ISO 27001)", "category": "technical" },
+      { "name": "Risk assessment", "category": "hard" },
+      { "name": "Budgeting & vendor management", "category": "hard" },
+      { "name": "Leadership & team management", "category": "soft" },
+      { "name": "Executive communication", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/management/computer-and-information-systems-managers.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=information+security+manager",
+      "fallbackNote": "BLS groups this role under 'Computer and Information Systems Managers.'"
+    }
+  },
+  {
+    "id": "privacy-engineer",
+    "name": "Privacy Engineer",
+    "type": "emerging",
+    "parentId": "security-governance",
+    "tagline": "An emerging branch: builds privacy directly into products",
+    "description": "A growing career branch that merges security engineering with privacy law, building technical systems (like data anonymization and consent tools) that keep companies compliant with growing privacy regulations.",
+    "tasks": [
+      "Design systems that minimize and protect personal data",
+      "Build tools for data anonymization, consent, and deletion requests",
+      "Review new features for privacy risk before launch",
+      "Translate privacy laws (like GDPR/CCPA) into engineering requirements"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science or cybersecurity, often paired with self-directed privacy law/compliance knowledge",
+      "degrees": ["B.S. Computer Science", "B.S. Cybersecurity"],
+      "certifications": ["IAPP Certified Information Privacy Technologist (CIPT)", "CIPP/US (Certified Information Privacy Professional)"]
+    },
+    "salary": {
+      "median": 130000,
+      "range": "$90,000 – $180,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs", "Legal/compliance training budget"]
+    },
+    "availability": {
+      "nationalGrowthPct": null,
+      "nationalGrowthLabel": "Too new for its own BLS projection; demand is rising with new privacy laws worldwide",
+      "annualOpenings": null,
+      "projectionWindow": "n/a",
+      "localNote": ""
+    },
+    "videoSearchQuery": "what does a privacy engineer do",
+    "videos": [],
+    "skills": [
+      { "name": "Software engineering", "category": "technical" },
+      { "name": "Data privacy regulations (GDPR, CCPA)", "category": "hard" },
+      { "name": "Threat/privacy modeling", "category": "hard" },
+      { "name": "Cross-functional collaboration (legal + engineering)", "category": "soft" },
+      { "name": "Clear explanation of technical risk", "category": "soft" }
+    ],
+    "sources": {
+      "bls": null,
+      "onet": "https://www.onetonline.org/find/quick?s=privacy+engineer",
+      "fallbackNote": "Not yet an official BLS/O*NET occupation as of 2026. Closest related profile is 'Information Security Analysts.'"
+    }
+  },
+
+  {
+    "id": "infrastructure-and-networks",
+    "name": "Infrastructure & Networks",
+    "type": "domain",
+    "parentId": "computing-foundations",
+    "tagline": "Keeping systems connected, running, and online",
+    "description": "As organizations connected more computers together, a domain branched off to build and maintain the networks, servers, and cloud platforms everything else depends on.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "what does IT infrastructure and networking career look like",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "network-engineering",
+    "name": "Network Engineering",
+    "type": "specialization",
+    "parentId": "infrastructure-and-networks",
+    "tagline": "Connecting computers together, reliably and securely",
+    "description": "This specialization focuses on the wires, routers, and protocols that let computers talk to each other — from a small office to a global company.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a network engineer",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "network-administrator",
+    "name": "Network Administrator",
+    "type": "career",
+    "parentId": "network-engineering",
+    "tagline": "Keeps an organization's network running day to day",
+    "description": "Network administrators maintain and troubleshoot an organization's day-to-day network operations, keeping employees and systems connected.",
+    "tasks": [
+      "Install and maintain routers, switches, and firewalls",
+      "Monitor network performance and troubleshoot outages",
+      "Manage user access to network resources",
+      "Keep network documentation and diagrams up to date"
+    ],
+    "education": {
+      "typicalEntry": "Associate or bachelor's degree in networking, IT, or computer science",
+      "degrees": ["A.S. Network Administration", "B.S. Information Technology"],
+      "certifications": ["CompTIA Network+", "Cisco Certified Network Associate (CCNA)"]
+    },
+    "salary": {
+      "median": 95360,
+      "range": "$55,000 – $135,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "On-call pay", "Certification reimbursement"]
+    },
+    "availability": {
+      "nationalGrowthPct": 8,
+      "nationalGrowthLabel": "About as fast as average",
+      "annualOpenings": 21500,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a network administrator",
+    "videos": [],
+    "skills": [
+      { "name": "Networking protocols (TCP/IP, DNS, DHCP)", "category": "technical" },
+      { "name": "Router/switch/firewall configuration", "category": "technical" },
+      { "name": "Troubleshooting methodology", "category": "hard" },
+      { "name": "Documentation habits", "category": "hard" },
+      { "name": "Patience with end users", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1244.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "network-engineer",
+    "name": "Network Engineer / Architect",
+    "type": "career",
+    "parentId": "network-engineering",
+    "tagline": "Designs the network, rather than just maintaining it",
+    "description": "Network engineers (or architects) design and build new network infrastructure — planning how a company's systems, offices, and cloud resources should connect, scale, and stay secure.",
+    "tasks": [
+      "Design network topology for new offices, data centers, or cloud environments",
+      "Plan for scalability, redundancy, and disaster recovery",
+      "Evaluate and implement new networking hardware/software",
+      "Lead major network upgrades and migrations"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science, networking, or IT, usually after experience as a network administrator",
+      "degrees": ["B.S. Computer Science", "B.S. Network Engineering"],
+      "certifications": ["Cisco Certified Network Professional (CCNP)", "Cisco Certified Internetwork Expert (CCIE)"]
+    },
+    "salary": {
+      "median": 126900,
+      "range": "$80,000 – $175,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "On-call/project bonuses", "Certification reimbursement"]
+    },
+    "availability": {
+      "nationalGrowthPct": 13,
+      "nationalGrowthLabel": "Faster than average (Computer Network Architects)",
+      "annualOpenings": 12900,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a network architect engineer",
+    "videos": [],
+    "skills": [
+      { "name": "Advanced networking & routing protocols", "category": "technical" },
+      { "name": "Cloud networking (VPC, hybrid cloud)", "category": "technical" },
+      { "name": "Capacity planning", "category": "hard" },
+      { "name": "Security-minded design", "category": "hard" },
+      { "name": "Project leadership", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1241.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "cloud-computing",
+    "name": "Cloud Computing",
+    "type": "specialization",
+    "parentId": "infrastructure-and-networks",
+    "tagline": "Running systems on rented, remote data centers",
+    "description": "As companies moved away from owning their own servers, this branch grew around building and managing systems hosted on cloud platforms like AWS, Azure, and Google Cloud.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a cloud engineer",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "cloud-engineer",
+    "name": "Cloud Engineer",
+    "type": "career",
+    "parentId": "cloud-computing",
+    "tagline": "Builds and manages systems hosted in the cloud",
+    "description": "Cloud engineers set up and manage an organization's infrastructure on platforms like AWS, Azure, or Google Cloud — servers, storage, and networking that scale on demand.",
+    "tasks": [
+      "Provision and configure cloud servers, storage, and networking",
+      "Automate infrastructure setup using code (Infrastructure as Code)",
+      "Monitor cloud costs and performance",
+      "Secure cloud environments and manage access permissions"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science or IT, though certifications weigh heavily in hiring",
+      "degrees": ["B.S. Computer Science", "B.S. Information Technology"],
+      "certifications": ["AWS Certified Solutions Architect", "Microsoft Certified: Azure Administrator Associate"]
+    },
+    "salary": {
+      "median": 120000,
+      "range": "$75,000 – $170,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs (common at tech firms)", "Certification reimbursement"]
+    },
+    "availability": {
+      "nationalGrowthPct": 10,
+      "nationalGrowthLabel": "Faster than average (grouped under Network and Computer Systems Administrators)",
+      "annualOpenings": 21500,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a cloud engineer",
+    "videos": [],
+    "skills": [
+      { "name": "A major cloud platform (AWS, Azure, GCP)", "category": "technical" },
+      { "name": "Infrastructure as Code (Terraform)", "category": "technical" },
+      { "name": "Linux/scripting", "category": "hard" },
+      { "name": "Cost & performance optimization", "category": "hard" },
+      { "name": "Continuous learning mindset", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=cloud+engineer",
+      "fallbackNote": "BLS does not yet track 'Cloud Engineer' as a standalone title; closest official match is 'Network and Computer Systems Administrators.'"
+    }
+  },
+  {
+    "id": "cloud-solutions-architect",
+    "name": "Cloud Solutions Architect",
+    "type": "career",
+    "parentId": "cloud-computing",
+    "tagline": "Designs large-scale cloud systems end to end",
+    "description": "Cloud solutions architects design the overall structure of an organization's cloud systems, balancing cost, performance, security, and reliability across an entire technology strategy.",
+    "tasks": [
+      "Design end-to-end cloud architecture for new systems",
+      "Advise leadership on cloud strategy and vendor selection",
+      "Review and approve major infrastructure changes",
+      "Mentor engineers on cloud best practices"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science, usually after several years as a cloud or systems engineer",
+      "degrees": ["B.S. Computer Science", "B.S. Information Technology"],
+      "certifications": ["AWS Certified Solutions Architect – Professional", "Google Professional Cloud Architect"]
+    },
+    "salary": {
+      "median": 158000,
+      "range": "$110,000 – $210,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs", "Conference & certification budget"]
+    },
+    "availability": {
+      "nationalGrowthPct": 10,
+      "nationalGrowthLabel": "Faster than average (grouped under Network and Computer Systems Administrators)",
+      "annualOpenings": 21500,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a cloud solutions architect",
+    "videos": [],
+    "skills": [
+      { "name": "Multi-cloud architecture design", "category": "technical" },
+      { "name": "Security & compliance in the cloud", "category": "technical" },
+      { "name": "Cost modeling", "category": "hard" },
+      { "name": "Stakeholder communication", "category": "soft" },
+      { "name": "Mentorship & leadership", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=cloud+architect",
+      "fallbackNote": "BLS does not yet track this exact title; closest official match is 'Network and Computer Systems Administrators' / 'Computer Network Architects.'"
+    }
+  },
+  {
+    "id": "systems-administration",
+    "name": "Systems Administration & DevOps",
+    "type": "specialization",
+    "parentId": "infrastructure-and-networks",
+    "tagline": "Keeping servers and deployments running smoothly",
+    "description": "This branch focuses on operating servers and, more recently, automating how software gets built, tested, and deployed — a discipline known as DevOps.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a systems administrator DevOps",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "systems-administrator",
+    "name": "Systems Administrator",
+    "type": "career",
+    "parentId": "systems-administration",
+    "tagline": "Keeps servers and computer systems running",
+    "description": "Systems administrators install, configure, and maintain the servers and operating systems that run an organization's applications and services.",
+    "tasks": [
+      "Install and configure servers and operating systems",
+      "Monitor system health and apply security patches",
+      "Manage backups and respond to outages",
+      "Support employees with system-level technical issues"
+    ],
+    "education": {
+      "typicalEntry": "Associate or bachelor's degree in IT, computer science, or a related field",
+      "degrees": ["A.S. Information Technology", "B.S. Computer Science"],
+      "certifications": ["CompTIA Server+", "Microsoft Certified: Windows Server Hybrid Administrator"]
+    },
+    "salary": {
+      "median": 95360,
+      "range": "$55,000 – $135,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "On-call pay", "Certification reimbursement"]
+    },
+    "availability": {
+      "nationalGrowthPct": 8,
+      "nationalGrowthLabel": "About as fast as average",
+      "annualOpenings": 21500,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a systems administrator",
+    "videos": [],
+    "skills": [
+      { "name": "Linux & Windows Server administration", "category": "technical" },
+      { "name": "Scripting (Bash/PowerShell)", "category": "technical" },
+      { "name": "Patch & backup management", "category": "hard" },
+      { "name": "Troubleshooting under time pressure", "category": "hard" },
+      { "name": "Reliability & follow-through", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1244.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "devops-engineer",
+    "name": "DevOps Engineer",
+    "type": "career",
+    "parentId": "systems-administration",
+    "tagline": "Automates how software gets built and deployed",
+    "description": "DevOps engineers build the automated pipelines that test, package, and deploy software, bridging development and operations teams to ship code faster and more reliably.",
+    "tasks": [
+      "Build and maintain CI/CD pipelines that automate testing and deployment",
+      "Manage infrastructure using code (Terraform, Ansible)",
+      "Set up monitoring and alerting for production systems",
+      "Collaborate with developers to streamline releases"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science or IT, usually after experience as a developer or sysadmin",
+      "degrees": ["B.S. Computer Science", "B.S. Information Technology"],
+      "certifications": ["AWS Certified DevOps Engineer", "Certified Kubernetes Administrator (CKA)"]
+    },
+    "salary": {
+      "median": 128000,
+      "range": "$80,000 – $180,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs", "On-call rotation pay"]
+    },
+    "availability": {
+      "nationalGrowthPct": 17,
+      "nationalGrowthLabel": "Much faster than average (grouped under Software Developers)",
+      "annualOpenings": 130000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a DevOps engineer",
+    "videos": [],
+    "skills": [
+      { "name": "CI/CD tools (Jenkins, GitHub Actions)", "category": "technical" },
+      { "name": "Containers (Docker, Kubernetes)", "category": "technical" },
+      { "name": "Infrastructure as Code", "category": "technical" },
+      { "name": "Cross-team collaboration", "category": "soft" },
+      { "name": "Calm incident response", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=devops+engineer",
+      "fallbackNote": "BLS does not yet track 'DevOps Engineer' as a standalone title; closest official match is 'Software Developers.'"
+    }
+  },
+  {
+    "id": "site-reliability-engineer",
+    "name": "Site Reliability Engineer (SRE)",
+    "type": "emerging",
+    "parentId": "devops-engineer",
+    "tagline": "An emerging branch: applies software engineering to keeping systems up",
+    "description": "A career branch pioneered by large tech companies that treats 'keeping the system reliable' as its own engineering discipline — writing code and automation specifically to prevent and respond to outages at scale.",
+    "tasks": [
+      "Define and track reliability targets (SLAs/SLOs)",
+      "Build automation to reduce manual operational work",
+      "Lead response to major outages and write blameless postmortems",
+      "Design systems to fail gracefully at scale"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer science, typically after experience as a software engineer or DevOps engineer",
+      "degrees": ["B.S. Computer Science", "B.S. Software Engineering"],
+      "certifications": ["Google Cloud Professional Cloud DevOps Engineer", "Certified Kubernetes Administrator (CKA)"]
+    },
+    "salary": {
+      "median": 145000,
+      "range": "$95,000 – $200,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs", "On-call rotation pay"]
+    },
+    "availability": {
+      "nationalGrowthPct": null,
+      "nationalGrowthLabel": "Not tracked separately by BLS; folded into the fast-growing Software Developers group",
+      "annualOpenings": null,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "what does a site reliability engineer SRE do",
+    "videos": [],
+    "skills": [
+      { "name": "Software engineering", "category": "technical" },
+      { "name": "Distributed systems concepts", "category": "technical" },
+      { "name": "Monitoring & observability tools", "category": "hard" },
+      { "name": "Root-cause analysis", "category": "hard" },
+      { "name": "Composure during outages", "category": "soft" }
+    ],
+    "sources": {
+      "bls": null,
+      "onet": "https://www.onetonline.org/find/quick?s=site+reliability+engineer",
+      "fallbackNote": "Too new for its own BLS/O*NET occupation code as of 2026. Closest official match is 'Software Developers.'"
+    }
+  },
+
+  {
+    "id": "hardware-and-engineering",
+    "name": "Hardware & Computer Engineering",
+    "type": "domain",
+    "parentId": "computing-foundations",
+    "tagline": "Designing the physical machines computing runs on",
+    "description": "While software branches focus on instructions, this domain branched off to design the physical devices — chips, circuit boards, and robots — that run those instructions.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "what does a computer hardware engineer do",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "computer-engineering",
+    "name": "Computer Engineering",
+    "type": "specialization",
+    "parentId": "hardware-and-engineering",
+    "tagline": "Where hardware and software design meet",
+    "description": "Computer engineering branched off to design the chips, circuit boards, and embedded systems that give physical devices their computing power.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a computer hardware engineer",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "computer-hardware-engineer",
+    "name": "Computer Hardware Engineer",
+    "type": "career",
+    "parentId": "computer-engineering",
+    "tagline": "Designs computer chips and physical components",
+    "description": "Computer hardware engineers research, design, and test the physical components of computers — processors, circuit boards, and devices — working closely with manufacturers.",
+    "tasks": [
+      "Design and test circuit boards and computer components",
+      "Simulate hardware performance before manufacturing",
+      "Collaborate with software engineers on firmware compatibility",
+      "Oversee prototyping and manufacturing quality"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer engineering or electrical engineering",
+      "degrees": ["B.S. Computer Engineering", "B.S. Electrical Engineering"],
+      "certifications": ["Certified Hardware Asset Management Professional", "Vendor-specific chip design certifications"]
+    },
+    "salary": {
+      "median": 140830,
+      "range": "$90,000 – $190,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Relocation assistance (common at fabs/plants)", "Patent/innovation bonuses"]
+    },
+    "availability": {
+      "nationalGrowthPct": 6,
+      "nationalGrowthLabel": "Faster than average",
+      "annualOpenings": 6300,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a computer hardware engineer",
+    "videos": [],
+    "skills": [
+      { "name": "Circuit design & CAD tools", "category": "technical" },
+      { "name": "Electronics & physics fundamentals", "category": "technical" },
+      { "name": "Hardware description languages (VHDL/Verilog)", "category": "hard" },
+      { "name": "Testing & quality assurance", "category": "hard" },
+      { "name": "Precision & patience", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm",
+      "onet": "https://www.onetonline.org/link/summary/17-2061.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "embedded-systems-engineer",
+    "name": "Embedded Systems Engineer",
+    "type": "career",
+    "parentId": "computer-engineering",
+    "tagline": "Writes the software that lives inside devices",
+    "description": "Embedded systems engineers write low-level software that runs directly on hardware devices — from car sensors to medical devices to home appliances — rather than on general-purpose computers.",
+    "tasks": [
+      "Write firmware/software for microcontrollers and embedded devices",
+      "Work closely with hardware engineers on device constraints",
+      "Optimize code for limited memory and processing power",
+      "Test devices under real-world operating conditions"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer engineering, electrical engineering, or computer science",
+      "degrees": ["B.S. Computer Engineering", "B.S. Electrical Engineering"],
+      "certifications": ["Certified Embedded Systems Engineer (ISCET)", "ARM Accredited Engineer"]
+    },
+    "salary": {
+      "median": 118000,
+      "range": "$75,000 – $165,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Hardware/lab equipment access", "Relocation assistance (varies)"]
+    },
+    "availability": {
+      "nationalGrowthPct": 17,
+      "nationalGrowthLabel": "Much faster than average (grouped under Software Developers)",
+      "annualOpenings": 130000,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of an embedded systems engineer",
+    "videos": [],
+    "skills": [
+      { "name": "C / C++", "category": "technical" },
+      { "name": "Microcontrollers & real-time operating systems", "category": "technical" },
+      { "name": "Circuit-level debugging", "category": "hard" },
+      { "name": "Resource-constrained optimization", "category": "hard" },
+      { "name": "Methodical troubleshooting", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=embedded+systems+engineer",
+      "fallbackNote": "BLS does not track this exact title; closest official match is 'Software Developers' (Software Quality Assurance) or 'Computer Hardware Engineers.'"
+    }
+  },
+  {
+    "id": "robotics",
+    "name": "Robotics",
+    "type": "specialization",
+    "parentId": "hardware-and-engineering",
+    "tagline": "Building machines that sense and act in the physical world",
+    "description": "Robotics branched off computer engineering to combine hardware, software, and AI into machines that can sense their environment and act autonomously.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a robotics engineer",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "robotics-engineer",
+    "name": "Robotics Engineer",
+    "type": "career",
+    "parentId": "robotics",
+    "tagline": "Designs and programs robots",
+    "description": "Robotics engineers design, build, and program robots for manufacturing, healthcare, exploration, and more — combining mechanical design, electronics, and software.",
+    "tasks": [
+      "Design robot mechanisms and control systems",
+      "Write software for robot perception, movement, and decision-making",
+      "Test robots in simulation and real-world environments",
+      "Collaborate with mechanical and electrical engineers"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in robotics, mechanical engineering, or computer engineering",
+      "degrees": ["B.S. Robotics Engineering", "B.S. Mechanical Engineering", "B.S. Computer Engineering"],
+      "certifications": ["Certified Robotics Engineer (proprietary/vendor)", "ROS (Robot Operating System) training certificates"]
+    },
+    "salary": {
+      "median": 105370,
+      "range": "$70,000 – $150,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Lab/equipment access", "Relocation assistance (varies)"]
+    },
+    "availability": {
+      "nationalGrowthPct": 9,
+      "nationalGrowthLabel": "Faster than average (grouped under Mechanical Engineers)",
+      "annualOpenings": 18400,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a robotics engineer",
+    "videos": [],
+    "skills": [
+      { "name": "Robot Operating System (ROS)", "category": "technical" },
+      { "name": "Programming (C++/Python)", "category": "technical" },
+      { "name": "Control systems & sensors", "category": "hard" },
+      { "name": "Mechanical/electrical fundamentals", "category": "hard" },
+      { "name": "Iterative experimentation", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=robotics+engineer",
+      "fallbackNote": "BLS groups this role under 'Mechanical Engineers'; O*NET lists 'Robotics Engineers' as a related detailed occupation."
+    }
+  },
+  {
+    "id": "iot-engineer",
+    "name": "IoT (Internet of Things) Engineer",
+    "type": "emerging",
+    "parentId": "robotics",
+    "tagline": "An emerging branch: connects everyday objects to the internet",
+    "description": "A rapidly growing branch that connects physical devices — thermostats, wearables, factory sensors — to the internet, blending embedded systems, networking, and cloud computing.",
+    "tasks": [
+      "Design and build connected ('smart') devices and sensors",
+      "Develop firmware and cloud connectivity for IoT devices",
+      "Ensure device security and data privacy",
+      "Manage large fleets of connected devices"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in computer engineering, electrical engineering, or computer science",
+      "degrees": ["B.S. Computer Engineering", "B.S. Electrical Engineering"],
+      "certifications": ["Certified IoT Professional (CIoTP)", "AWS Certified IoT specialty training"]
+    },
+    "salary": {
+      "median": 112000,
+      "range": "$70,000 – $160,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Hardware/lab access", "Remote/hybrid options (varies by role)"]
+    },
+    "availability": {
+      "nationalGrowthPct": null,
+      "nationalGrowthLabel": "Too new for a standalone BLS projection; demand is rising with smart-device adoption",
+      "annualOpenings": null,
+      "projectionWindow": "n/a",
+      "localNote": ""
+    },
+    "videoSearchQuery": "what does an IoT engineer do internet of things",
+    "videos": [],
+    "skills": [
+      { "name": "Embedded programming", "category": "technical" },
+      { "name": "Networking & cloud connectivity", "category": "technical" },
+      { "name": "IoT security practices", "category": "hard" },
+      { "name": "Hardware/software integration", "category": "hard" },
+      { "name": "Systems-level thinking", "category": "soft" }
+    ],
+    "sources": {
+      "bls": null,
+      "onet": "https://www.onetonline.org/find/quick?s=IoT+engineer",
+      "fallbackNote": "Not yet an official BLS/O*NET occupation as of 2026. Related established profiles include 'Computer Hardware Engineers' and 'Software Developers.'"
+    }
+  },
+
+  {
+    "id": "design-and-ux",
+    "name": "Design & User Experience",
+    "type": "domain",
+    "parentId": "computing-foundations",
+    "tagline": "Making technology usable, useful, and enjoyable",
+    "description": "As software grew more complex, a domain branched off to focus purely on the human side of computing — researching what people need and designing interfaces that are easy and pleasant to use.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "what does a UX designer do",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "ux-research",
+    "name": "UX Research",
+    "type": "specialization",
+    "parentId": "design-and-ux",
+    "tagline": "Understanding what users actually need",
+    "description": "UX research branched off to focus on studying real users — their needs, behaviors, and frustrations — before and after a product is designed.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a UX researcher",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "ux-researcher",
+    "name": "UX Researcher",
+    "type": "career",
+    "parentId": "ux-research",
+    "tagline": "Studies users to guide product design decisions",
+    "description": "UX researchers plan and run studies — interviews, surveys, usability tests — to understand user needs and behaviors, then translate findings into recommendations for designers and product teams.",
+    "tasks": [
+      "Plan and conduct user interviews, surveys, and usability tests",
+      "Analyze qualitative and quantitative research data",
+      "Present findings and recommendations to design/product teams",
+      "Build personas and journey maps"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in psychology, human-computer interaction, or a related field; many roles prefer a Master's",
+      "degrees": ["B.A./M.A. Psychology", "B.S./M.S. Human-Computer Interaction"],
+      "certifications": ["Nielsen Norman Group UX Certification", "Google UX Design Professional Certificate"]
+    },
+    "salary": {
+      "median": 104000,
+      "range": "$65,000 – $150,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Research tool/software budget", "Remote/hybrid options"]
+    },
+    "availability": {
+      "nationalGrowthPct": 8,
+      "nationalGrowthLabel": "Faster than average (grouped under Market Research Analysts)",
+      "annualOpenings": 33400,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a UX researcher",
+    "videos": [],
+    "skills": [
+      { "name": "Research methods (interviews, surveys, usability testing)", "category": "technical" },
+      { "name": "Data analysis", "category": "hard" },
+      { "name": "Persona & journey mapping", "category": "hard" },
+      { "name": "Empathy", "category": "soft" },
+      { "name": "Clear storytelling with findings", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=user+experience+researcher",
+      "fallbackNote": "BLS groups this role under 'Market Research Analysts.'"
+    }
+  },
+  {
+    "id": "ui-ux-design",
+    "name": "UI/UX Design",
+    "type": "specialization",
+    "parentId": "design-and-ux",
+    "tagline": "Designing interfaces people love to use",
+    "description": "This branch focuses on turning research into actual interfaces — the layouts, flows, and visuals that make a product intuitive and enjoyable to use.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of a UX UI designer",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "ux-ui-designer",
+    "name": "UX/UI Designer",
+    "type": "career",
+    "parentId": "ui-ux-design",
+    "tagline": "Designs how a product looks, flows, and feels",
+    "description": "UX/UI designers create wireframes, prototypes, and visual designs for apps and websites, working to make products both easy to use and visually appealing.",
+    "tasks": [
+      "Create wireframes, prototypes, and high-fidelity mockups",
+      "Design user flows and information architecture",
+      "Run usability tests and iterate on designs",
+      "Collaborate closely with developers to implement designs"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in graphic design, HCI, or a related field; strong portfolios can substitute for a specific degree",
+      "degrees": ["B.A./B.F.A. Graphic or Interaction Design", "B.S. Human-Computer Interaction"],
+      "certifications": ["Google UX Design Professional Certificate", "Certified Usability Analyst (CUA)"]
+    },
+    "salary": {
+      "median": 100000,
+      "range": "$60,000 – $145,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Design tool subscriptions", "Remote/hybrid options"]
+    },
+    "availability": {
+      "nationalGrowthPct": 8,
+      "nationalGrowthLabel": "Faster than average (grouped under Web and Digital Interface Designers)",
+      "annualOpenings": 6900,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a UX UI designer",
+    "videos": [],
+    "skills": [
+      { "name": "Design tools (Figma, Sketch, Adobe XD)", "category": "technical" },
+      { "name": "Wireframing & prototyping", "category": "technical" },
+      { "name": "Visual design principles", "category": "hard" },
+      { "name": "Usability testing", "category": "hard" },
+      { "name": "Collaboration with engineers", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1255.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "product-designer",
+    "name": "Product Designer",
+    "type": "career",
+    "parentId": "ui-ux-design",
+    "tagline": "Owns the full design of a product, not just screens",
+    "description": "Product designers take broad ownership of a product's design — combining UX research, UI design, and business strategy to shape what gets built and why.",
+    "tasks": [
+      "Define product design strategy alongside product managers",
+      "Design end-to-end user experiences across a product",
+      "Balance user needs, business goals, and technical constraints",
+      "Present and defend design decisions to leadership"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in design, HCI, or a related field, usually after experience as a UX/UI designer",
+      "degrees": ["B.A./B.F.A. Design", "B.S. Human-Computer Interaction"],
+      "certifications": ["Google UX Design Professional Certificate", "Certified Product Manager (for design leadership tracks)"]
+    },
+    "salary": {
+      "median": 118000,
+      "range": "$75,000 – $165,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Stock options/RSUs", "Design tool subscriptions"]
+    },
+    "availability": {
+      "nationalGrowthPct": 8,
+      "nationalGrowthLabel": "Faster than average (grouped under Web and Digital Interface Designers)",
+      "annualOpenings": 6900,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of a product designer",
+    "videos": [],
+    "skills": [
+      { "name": "End-to-end product design", "category": "technical" },
+      { "name": "Design systems", "category": "hard" },
+      { "name": "Strategic/business thinking", "category": "hard" },
+      { "name": "Leadership & influence without authority", "category": "soft" },
+      { "name": "Storytelling & presentation", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1255.00",
+      "fallbackNote": null
+    }
+  },
+
+  {
+    "id": "it-support-and-management",
+    "name": "IT Support & Management",
+    "type": "domain",
+    "parentId": "computing-foundations",
+    "tagline": "Keeping people productive and technology projects on track",
+    "description": "This domain branched off to focus on people: helping end users solve technical problems, and managing the teams and projects that deliver technology across an organization.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "what does IT support and management career look like",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "technical-support",
+    "name": "Technical Support",
+    "type": "specialization",
+    "parentId": "it-support-and-management",
+    "tagline": "The friendly first line of tech help",
+    "description": "Technical support branched off as computers reached everyday users who needed help — becoming the accessible, front-line entry point into many IT careers.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of IT help desk support",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "it-support-specialist",
+    "name": "IT Support Specialist / Help Desk Technician",
+    "type": "career",
+    "parentId": "technical-support",
+    "tagline": "Solves everyday tech problems for employees or customers",
+    "description": "IT support specialists diagnose and fix hardware, software, and network problems for employees or customers, often serving as many people's first contact with the IT department.",
+    "tasks": [
+      "Respond to help desk tickets and phone/chat support requests",
+      "Diagnose and resolve hardware, software, and network issues",
+      "Set up new employee computers, accounts, and equipment",
+      "Document common issues and solutions in a knowledge base"
+    ],
+    "education": {
+      "typicalEntry": "High school diploma plus certifications, or an associate degree in IT",
+      "degrees": ["A.S. Information Technology", "B.S. Information Technology (for advancement)"],
+      "certifications": ["CompTIA A+", "CompTIA Network+"]
+    },
+    "salary": {
+      "median": 60810,
+      "range": "$38,000 – $85,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Paid time off & holidays", "Tuition/certification reimbursement"]
+    },
+    "availability": {
+      "nationalGrowthPct": 6,
+      "nationalGrowthLabel": "As fast as average",
+      "annualOpenings": 68800,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of an IT help desk technician",
+    "videos": [],
+    "skills": [
+      { "name": "Operating systems (Windows/macOS)", "category": "technical" },
+      { "name": "Ticketing systems", "category": "technical" },
+      { "name": "Troubleshooting methodology", "category": "hard" },
+      { "name": "Clear, patient communication", "category": "soft" },
+      { "name": "Customer service", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm",
+      "onet": "https://www.onetonline.org/link/summary/15-1232.00",
+      "fallbackNote": null
+    }
+  },
+  {
+    "id": "it-management",
+    "name": "IT Project & Program Management",
+    "type": "specialization",
+    "parentId": "it-support-and-management",
+    "tagline": "Leading technology projects and teams",
+    "description": "This branch focuses on planning, organizing, and leading the people and projects that deliver technology on time and on budget.",
+    "tasks": [],
+    "education": null,
+    "salary": null,
+    "availability": null,
+    "videoSearchQuery": "day in the life of an IT project manager",
+    "videos": [],
+    "skills": [],
+    "sources": null
+  },
+  {
+    "id": "it-project-manager",
+    "name": "IT Project Manager",
+    "type": "career",
+    "parentId": "it-management",
+    "tagline": "Plans and leads technology projects from start to finish",
+    "description": "IT project managers plan timelines, budgets, and teams for technology projects, keeping everyone coordinated and the project on track from kickoff to launch.",
+    "tasks": [
+      "Plan project timelines, budgets, and resources",
+      "Coordinate developers, designers, and stakeholders",
+      "Track progress and manage risks or blockers",
+      "Report project status to leadership and clients"
+    ],
+    "education": {
+      "typicalEntry": "Bachelor's degree in IT, business, or computer science, usually after experience in a technical role",
+      "degrees": ["B.S. Information Technology", "B.S./B.A. Business Administration"],
+      "certifications": ["Project Management Professional (PMP)", "Certified ScrumMaster (CSM)"]
+    },
+    "salary": {
+      "median": 100000,
+      "range": "$65,000 – $150,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Performance bonuses", "Certification reimbursement"]
+    },
+    "availability": {
+      "nationalGrowthPct": 15,
+      "nationalGrowthLabel": "Much faster than average (grouped under Computer and Information Systems Managers)",
+      "annualOpenings": 52700,
+      "projectionWindow": "2023–2033",
+      "localNote": ""
+    },
+    "videoSearchQuery": "day in the life of an IT project manager",
+    "videos": [],
+    "skills": [
+      { "name": "Project management tools (Jira, MS Project)", "category": "technical" },
+      { "name": "Agile/Scrum methodology", "category": "hard" },
+      { "name": "Budgeting & scheduling", "category": "hard" },
+      { "name": "Leadership", "category": "soft" },
+      { "name": "Conflict resolution", "category": "soft" }
+    ],
+    "sources": {
+      "bls": "https://www.bls.gov/ooh/management/computer-and-information-systems-managers.htm",
+      "onet": "https://www.onetonline.org/find/quick?s=IT+project+manager",
+      "fallbackNote": "BLS groups this role under 'Computer and Information Systems Managers.'"
+    }
+  },
+  {
+    "id": "ai-data-annotation-specialist",
+    "name": "AI Training Data Specialist",
+    "type": "emerging",
+    "parentId": "it-management",
+    "tagline": "An emerging branch: manages the human work behind AI training",
+    "description": "A newly formed role coordinating the people and processes that label, review, and improve the data used to train AI models — part project management, part quality control, part AI literacy.",
+    "tasks": [
+      "Design and manage data labeling/annotation workflows",
+      "Write instructions and quality standards for human reviewers/raters",
+      "Audit labeled data and AI outputs for quality and consistency",
+      "Coordinate between AI teams and annotation teams or vendors"
+    ],
+    "education": {
+      "typicalEntry": "No standard degree yet; often held by people with backgrounds in project management, linguistics, or data analysis",
+      "degrees": ["B.A./B.S. in any field, often paired with project management or data experience"],
+      "certifications": ["Project Management Professional (PMP)", "Vendor AI/data-labeling platform certificates"]
+    },
+    "salary": {
+      "median": 78000,
+      "range": "$45,000 – $115,000",
+      "period": "annual",
+      "benefits": ["Health, dental & vision insurance", "401(k) with employer match", "Remote/hybrid work options", "AI training/tool stipends"]
+    },
+    "availability": {
+      "nationalGrowthPct": null,
+      "nationalGrowthLabel": "Too new for a BLS growth projection; demand is tied to the rapid growth of AI training pipelines",
+      "annualOpenings": null,
+      "projectionWindow": "n/a",
+      "localNote": ""
+    },
+    "videoSearchQuery": "what does an AI data annotation specialist do",
+    "videos": [],
+    "skills": [
+      { "name": "AI/ML literacy", "category": "technical" },
+      { "name": "Workflow & quality-process design", "category": "hard" },
+      { "name": "Attention to detail", "category": "hard" },
+      { "name": "Clear instructional writing", "category": "soft" },
+      { "name": "Team coordination", "category": "soft" }
+    ],
+    "sources": {
+      "bls": null,
+      "onet": "https://www.onetonline.org/find/quick?s=data+annotation",
+      "fallbackNote": "Not yet an official BLS/O*NET occupation as of 2026. Related established profiles include 'Computer and Information Systems Managers' and 'Market Research Analysts.'"
+    }
+  }
+]
