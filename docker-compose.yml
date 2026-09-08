@@ -1,0 +1,9 @@
+services:
+  tree-of-life:
+    build: .
+    container_name: tree-of-life
+    ports:
+      # Host:container — change the host port if 8090 is already taken
+      # (e.g. by the CTF server) on this machine.
+      - "8090:80"
+    restart: unless-stopped
