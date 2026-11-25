@@ -2,6 +2,15 @@
 
 An interactive, evolutionary "Tree of Life" for computing and IT careers. Built as a research companion for high school students completing a career research paper based on BLS.gov (Occupational Outlook Handbook) and O\*NET Online data.
 
+## Using it in class
+
+Use the career tree to narrow a research topic, open a role for its details, and
+compare roles before choosing one. The skill checklist gives students a way to
+keep track of areas they want to investigate further.
+
+For a classroom without reliable internet, build the single-file edition below
+before class and distribute the resulting HTML file.
+
 ## Running it locally
 
 ```bash
